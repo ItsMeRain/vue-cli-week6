@@ -13,6 +13,10 @@ export default {
   name: 'HomeView',
   components: {
     HelloWorld
+  },
+  mounted () {
+    // axios -> this.$http
+    console.log(this.$http.get)
   }
 }
 </script>
